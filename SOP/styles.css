@@ -1,0 +1,81 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Fundo cinza claro */
+    color: #333; /* Cor do texto principal */
+}
+
+/* Cabeçalho da Diretoria */
+.director-header {
+    background-color: #ffffff; /* Fundo branco */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.director-header h1 {
+    margin: 0;
+    color: #333; /* Cor do texto */
+    font-size: 2.5em;
+}
+
+/* Conteúdo Principal */
+.director-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Fundo branco */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center;
+}
+
+/* Container da Imagem */
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+/* Texto Centralizado */
+.text-container {
+    margin: 20px 0;
+    color: #555; /* Cor do texto */
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Logo Retangular */
+.logo-container img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+/* Rodapé */
+footer {
+    background-color: #333; /* Fundo cinza escuro */
+    color: #ffffff; /* Texto branco */
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 10rem;
+
+}
+
+footer .footer-links, footer .social-media, footer .legal-info {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #f1f1f1; /* Cor dos links no rodapé */
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Transição suave */
+}
+
+footer a:hover {
+    color: #ccc; /* Cor dos links ao passar o mouse */
+}
